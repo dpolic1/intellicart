@@ -1,3 +1,4 @@
+import ContactForm from '@/components/pages/home/ContactForm'
 import HeroSection from '@/components/pages/home/HeroSection'
 import Testimonials from '@/components/pages/home/Testimonials'
 import Image from 'next/image'
@@ -7,6 +8,7 @@ export default function HomePage() {
     <main className="min-h-screen p-24">
       <HeroSection />
       <Testimonials />
+      <ContactForm />
     </main>
   )
 }
