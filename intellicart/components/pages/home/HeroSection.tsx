@@ -9,7 +9,8 @@ function HeroSection() {
                 Discover Our Unique Features
               </h1>
               <p className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto">
-                Our features are designed to streamline your shopping experience.
+                Our features are designed to streamline your shopping
+                experience.
               </p>
             </div>
             <div className="w-full max-w-full space-y-4 mx-auto">
@@ -34,8 +35,8 @@ function HeroSection() {
                   </div>
                   <h2 className="text-xl font-bold text-white">Scan & Go</h2>
                   <p className="text-zinc-200 dark:text-zinc-100">
-                    Scan products, fill up your digital cart, and checkout hassle-free from your app while in
-                    the store.
+                    Scan products, fill up your digital cart, and checkout
+                    hassle-free from your app while in the store.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -57,10 +58,12 @@ function HeroSection() {
                       <path d="m20 22-5-5" />
                     </svg>
                   </div>
-                  <h2 className="text-xl font-bold text-white">Real-time Inventory</h2>
+                  <h2 className="text-xl font-bold text-white">
+                    Real-time Inventory
+                  </h2>
                   <p className="text-zinc-200 dark:text-zinc-100">
-                    Get live updates on product availability and location within the store, ensuring a
-                    smoother shopping experience.
+                    Get live updates on product availability and location within
+                    the store, ensuring a smoother shopping experience.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -81,10 +84,12 @@ function HeroSection() {
                       <circle cx="12" cy="12" r="3" />
                     </svg>
                   </div>
-                  <h2 className="text-xl font-bold text-white">Personalized Recommendations</h2>
+                  <h2 className="text-xl font-bold text-white">
+                    Personalized Recommendations
+                  </h2>
                   <p className="text-zinc-200 dark:text-zinc-100">
-                    Receive tailored suggestions based on your shopping history, making your in-store visit
-                    more efficient.
+                    Receive tailored suggestions based on your shopping history,
+                    making your in-store visit more efficient.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -105,10 +110,12 @@ function HeroSection() {
                       <path d="m21 21-4.3-4.3" />
                     </svg>
                   </div>
-                  <h2 className="text-xl font-bold text-white">Instant Checkout</h2>
+                  <h2 className="text-xl font-bold text-white">
+                    Instant Checkout
+                  </h2>
                   <p className="text-zinc-200 dark:text-zinc-100">
-                    Skip the lines by paying directly through the app and simply walking out once you're done
-                    shopping.
+                    Skip the lines by paying directly through the app and simply
+                    walking out once you&apos;re done shopping.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -129,10 +136,12 @@ function HeroSection() {
                       <path d="M7 11V7a5 5 0 0 1 10 0v4" />
                     </svg>
                   </div>
-                  <h2 className="text-xl font-bold text-white">Smart Shopping Lists</h2>
+                  <h2 className="text-xl font-bold text-white">
+                    Smart Shopping Lists
+                  </h2>
                   <p className="text-zinc-200 dark:text-zinc-100">
-                    Create, organize, and check off items on your list right from your phone, making your
-                    shopping trip a breeze.
+                    Create, organize, and check off items on your list right
+                    from your phone, making your shopping trip a breeze.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -154,10 +163,13 @@ function HeroSection() {
                       <path d="m20 22-5-5" />
                     </svg>
                   </div>
-                  <h2 className="text-xl font-bold text-white">Secure Transactions</h2>
+                  <h2 className="text-xl font-bold text-white">
+                    Secure Transactions
+                  </h2>
                   <p className="text-zinc-200 dark:text-zinc-100">
-                    Enjoy peace of mind with encrypted transactions and robust security measures, ensuring
-                    your payment and personal information are always safe.{" "}
+                    Enjoy peace of mind with encrypted transactions and robust
+                    security measures, ensuring your payment and personal
+                    information are always safe.{" "}
                   </p>
                 </div>
               </div>
