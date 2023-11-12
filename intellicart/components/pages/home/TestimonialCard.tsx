@@ -8,9 +8,13 @@ import {
 
 type TTestimonialCardProps = {
   cardText: string;
+  cardPerson: string;
 };
 
-export default function TestimonialCard({ cardText }: TTestimonialCardProps) {
+export default function TestimonialCard({
+  cardText,
+  cardPerson,
+}: TTestimonialCardProps) {
   return (
     <div className="w-full flex-shrink-0 max-w-lg bg-neutral-800 p-6 rounded-lg shadow-offset-black offset-x-10 offset-y-10">
       <Card className="p-6 h-full font-poppins bg-neutral-300">
@@ -46,7 +50,7 @@ export default function TestimonialCard({ cardText }: TTestimonialCardProps) {
               width="40"
             />
             <div>
-              <CardTitle className="text-base">John Doe</CardTitle>
+              <CardTitle className="text-base">{cardPerson}</CardTitle>
               <CardDescription>CEO, Example Corp.</CardDescription>
             </div>
           </div>
