@@ -1,9 +1,12 @@
-
-import { testimonialsData } from "@/lib/constants"
-import TestimonialCard from "./TestimonialCard"
+import { testimonialsData } from "@/lib/constants";
+import TestimonialCard from "./TestimonialCard";
 
 export default function Testimonials() {
   return (
-    testimonialsData.map((testimonial) => <TestimonialCard cardText={testimonial.cardText} />)
-  )
+    <div className="mb-48 flex gap-5 overflow-x-auto pb-4 flex-nowrap">
+      {testimonialsData.map((testimonial) => (
+        <TestimonialCard cardText={testimonial.cardText} />
+      ))}
+    </div>
+  );
 }
