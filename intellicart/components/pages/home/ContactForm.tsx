@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 export default function ContactForm() {
   return (
-    <div>
+    <div id="contact-us">
       <Card className="py-10 px-5 bg-neutral-300">
         <CardContent>
           <div className="space-y-8">

@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 function HeroSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black">
+    <section className="w-full pt-10 bg-black">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 items-center">
           <div className="flex flex-col justify-center space-y-8 text-center">
@@ -175,6 +177,15 @@ function HeroSection() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex justify-center mt-16">
+          <Link 
+            href="#contact-us"
+            className="bg-gradient-to-r from-white to-gray-500 text-black font-bold py-3 px-8 rounded-full"
+          >
+            Get Started
+          </Link>
         </div>
       </div>
     </section>
