@@ -20,7 +20,7 @@ type TImageGalleryProps = {
 
 const ImageGallery = ({images}: TImageGalleryProps) => {
     return (
-        <div className='mb-40'>
+        <div className='py-16 mb-40 bg-[radial-gradient(circle_at_50%_50%,_rgb(30,30,30)_0%,_black_45%)] backdrop-blur-md'>
             <h1 className='text-center mb-16 text-white text-5xl font-extralight'>Gallery</h1>
           <Swiper
             effect={'cards'}
@@ -28,7 +28,7 @@ const ImageGallery = ({images}: TImageGalleryProps) => {
             modules={[EffectCards]}
             className="mySwiper"
           >
-            {images.map((image, index) => (
+            {images.map((image) => (
               <SwiperSlide key={image.src}>
                 <img src={image.src} alt={image.alt} />
               </SwiperSlide>
